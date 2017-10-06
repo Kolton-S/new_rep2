@@ -24,6 +24,10 @@
       newSubImg.classList.add('thumb');
       //add a source
       newSubImg.src = "images/" + objectIndex.images[index];
+
+      //add event handling
+      newSubImg.addEventListener('click', popLightbox, false);
+
       //add it to the page
       subImages.appendChild(newSubImg);
     });
@@ -49,6 +53,10 @@
     element.addEventListener('click', ChangeElements, false);
   })
 
+  function popLightbox(){
+    debugger;
+  }
+  
   theSubhead.firstChild.nodeValue = dynamicContent['spring'].headline;
   theSeasonText.firstChild.nodeValue = dynamicContent['spring'].text;
   theHeading.classList.add('spring');
