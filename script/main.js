@@ -7,7 +7,6 @@
 
   function ChangeElements(){
     //make sure event handling is working
-    //debugger;
 
     let objectIndex = dynamicContent[this.id];
     let subImages = document.querySelector('.subImagesContainer');
@@ -54,12 +53,11 @@
   })
 
   function popLightbox(){
-    debugger;
+    let lightbox = document.querySelector('.lightbox');
+
+    lightbox.style.display = 'block';
   }
-  
-  theSubhead.firstChild.nodeValue = dynamicContent['spring'].headline;
-  theSeasonText.firstChild.nodeValue = dynamicContent['spring'].text;
-  theHeading.classList.add('spring');
-  //ha
+
+  //changeElements.call(document.querySelector('#spring'));
 
 })();
