@@ -7,6 +7,11 @@ var dynamicContent = {
 			images : [
 				"spring_1.jpg",
 				"spring_2.jpg"
+			],
+
+			imageDescription : [
+				"asfafasfsaf",
+				"asfdgdsgdgg"
 			]
 		},
 
@@ -18,6 +23,11 @@ var dynamicContent = {
 			images : [
 				"summer_1.jpg",
 				"summer_2.jpg"
+			],
+
+			imageDescription : [
+				"asfafasfsaf",
+				"asfdgdsgdgg"
 			]
 		},
 
@@ -29,6 +39,11 @@ var dynamicContent = {
 			images : [
 				"autumn_1.jpg",
 				"autumn_2.jpg"
+			],
+
+			imageDescription : [
+				"asfafasfsaf",
+				"asfdgdsgdgg"
 			]
 		},
 
@@ -40,6 +55,11 @@ var dynamicContent = {
 			images : [
 				"winter_1.jpg",
 				"winter_2.jpg"
+			],
+
+			imageDescription : [
+				"asfafasfsaf",
+				"asfdgdsgdgg"
 			]
 		}
 	};

@@ -24,8 +24,9 @@
       //add a source
       newSubImg.src = "images/" + objectIndex.images[index];
 
+      newSubImg.dataset.index = index;
       //add event handling
-      newSubImg.addEventListener('click', popLightbox, false);
+      newSubImg.addEventListener('click', function() { popLightbox(index, objectIndex); }, false);
 
       //add it to the page
       subImages.appendChild(newSubImg);
@@ -52,11 +53,26 @@
     element.addEventListener('click', ChangeElements, false);
   })
 
-  function popLightbox(){
+  function popLightbox(currentIndex, currentObject){
+    window.scrollTo(0, 0);
     let lightbox = document.querySelector('.lightbox');
-
+    let lightboxImg = document.querySelector('.lightbox-img');
+    let lightboxDesc = document.querySelector('.lightbox-desc');
+    let lightboxClose = document.querySelector('.lightbox-close');
+    lightboxImg.src = "images/" + currentObject.images[currentIndex];
+    lightboxDesc.innerHTML = currentObject.imageDescription[currentIndex];
     lightbox.style.display = 'block';
+
+    lightboxClose.addEventListener('click', closeBox, false);
+
+    function closeBox(){
+      lightbox.style.display = 'none';
+      lightboxImg.src = "";
+      lightboxDesc.innerHTML = "null";
+    }
   }
+
+
 
   //changeElements.call(document.querySelector('#spring'));
 
