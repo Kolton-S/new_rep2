@@ -58,12 +58,13 @@
     let lightbox = document.querySelector('.lightbox');
     let lightboxImg = document.querySelector('.lightbox-img');
     let lightboxDesc = document.querySelector('.lightbox-desc');
-    let lightboxClose = document.querySelector('.lightbox-close');
+    var lightboxClose = document.getElementById('close-lightbox');
     lightboxImg.src = "images/" + currentObject.images[currentIndex];
     lightboxDesc.innerHTML = currentObject.imageDescription[currentIndex];
     lightbox.style.display = 'block';
-
-    lightboxClose.addEventListener('click', closeBox, false);
+    if(lightboxClose){
+      lightboxClose.addEventListener('click', closeBox, false);
+    }
 
     function closeBox(){
       lightbox.style.display = 'none';

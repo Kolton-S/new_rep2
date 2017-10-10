@@ -6,12 +6,14 @@ var dynamicContent = {
 
 			images : [
 				"spring_1.jpg",
-				"spring_2.jpg"
+				"spring_2.jpg",
+				"spring_3.jpg"
 			],
 
 			imageDescription : [
-				"asfafasfsaf",
-				"asfdgdsgdgg"
+				"Beautiful butterflies.",
+				"Chick",
+				"Tulip trail"
 			]
 		},
 
@@ -22,12 +24,14 @@ var dynamicContent = {
 
 			images : [
 				"summer_1.jpg",
-				"summer_2.jpg"
+				"summer_2.jpg",
+				"summer_3.jpg"
 			],
 
 			imageDescription : [
-				"asfafasfsaf",
-				"asfdgdsgdgg"
+				"Beach chairs",
+				"Dog sleeping in hammock",
+				"Sunflower field"
 			]
 		},
 
@@ -38,12 +42,14 @@ var dynamicContent = {
 
 			images : [
 				"autumn_1.jpg",
-				"autumn_2.jpg"
+				"autumn_2.jpg",
+				"autumn_3.jpg"
 			],
 
 			imageDescription : [
-				"asfafasfsaf",
-				"asfdgdsgdgg"
+				"Fallen trail",
+				"Pumpkins and sunflowers",
+				"Big orange tree - Original Content"
 			]
 		},
 
@@ -54,12 +60,14 @@ var dynamicContent = {
 
 			images : [
 				"winter_1.jpg",
-				"winter_2.jpg"
+				"winter_2.jpg",
+				"winter_3.jpg"
 			],
 
 			imageDescription : [
-				"asfafasfsaf",
-				"asfdgdsgdgg"
+				"White forest",
+				"Snowman",
+				"Green-eyed wolf"
 			]
 		}
 	};
