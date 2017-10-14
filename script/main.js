@@ -75,6 +75,6 @@
 
 
 
-  //changeElements.call(document.querySelector('#spring'));
+  ChangeElements.call(document.querySelector('#spring'));
 
 })();
